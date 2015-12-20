@@ -859,6 +859,10 @@ a {
 .article {
   margin: 30px;
   position: relative;
+  -webkit-transition: -webkit-transform 0.3 ease-in-out;
+  -moz-transition: -moz-transform 0.3 ease-in-out;
+  -ms-transition: -ms-transform 0.3 ease-in-out;
+  transition: transform 0.3 ease-in-out;
   padding: 0 0 10px 0;
   background: #fff;
   -webkit-transition: all 0.2s ease-in;
@@ -881,6 +885,10 @@ a {
 .article:hover {
   -webkit-box-shadow: 0px 0px 30px #303030;
   box-shadow: 0px 0px 30px #303030;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 @-webkit-keyframes cd-bounce-1 {
   0% {
