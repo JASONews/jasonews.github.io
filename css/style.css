@@ -1134,8 +1134,8 @@ a {
   text-align: right;
 }
 .article-more-link a {
-  background: #4d4d4d;
-  color: #fff;
+  background: #fff;
+  color: #000;
   font-size: 12px;
   padding: 2px 8px 4px;
   line-height: 16px;
@@ -1149,7 +1149,7 @@ a {
   transition: background 0.3s;
 }
 .article-more-link a:hover {
-  background: #3c3c3c;
+  background: #000;
 }
 .article-more-link a.hidden {
   visibility: hidden;
