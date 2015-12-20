@@ -881,12 +881,6 @@ a {
 .article:hover {
   -webkit-box-shadow: 0px 0px 30px #303030;
   box-shadow: 0px 0px 30px #303030;
-  -webkit-animation: cd-bounce-2 0.6s;
-  -moz-animation: cd-bounce-2 0.6s;
-  -webkit-animation: cd-bounce-2 0.6s;
-  -moz-animation: cd-bounce-2 0.6s;
-  -ms-animation: cd-bounce-2 0.6s;
-  animation: cd-bounce-2 0.6s;
 }
 @-webkit-keyframes cd-bounce-1 {
   0% {
