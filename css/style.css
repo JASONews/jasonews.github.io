@@ -1149,7 +1149,8 @@ a {
   transition: background 0.3s;
 }
 .article-more-link a:hover {
-  background: #000;
+  background: #fff;
+  color: #c35655;
 }
 .article-more-link a.hidden {
   visibility: hidden;
