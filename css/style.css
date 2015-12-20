@@ -885,10 +885,10 @@ a {
 .article:hover {
   -webkit-box-shadow: 0px 0px 30px #303030;
   box-shadow: 0px 0px 30px #303030;
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
 }
 @-webkit-keyframes cd-bounce-1 {
   0% {
