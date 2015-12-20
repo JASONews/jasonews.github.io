@@ -207,7 +207,7 @@ a {
   height: 110px;
   position: absolute;
   width: 100%;
-  background: #973444;
+  background: #c35655;
 }
 #container #mobile-nav .overlay.fixed {
   position: fixed;
@@ -248,7 +248,7 @@ a {
 #container .left-col .overlay {
   width: 100%;
   height: 180px;
-  background-color: #973444;
+  background-color: #c35655;
   position: absolute;
 }
 #container .left-col .intrude-less {
@@ -950,7 +950,7 @@ a {
 }
 .article-header {
   border-left: 5px solid;
-  border-color: #973444;
+  border-color: #c35655;
   padding: 15px 0px 15px 25px;
 }
 .article-info.info-on-right {
