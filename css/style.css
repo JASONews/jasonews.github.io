@@ -141,7 +141,7 @@ body {
   font-size: 16px;
   background: url("/img/texture.png");
   background-repeat: repeat;
-  background-color: #f5f5dc;
+  background-color: #e3efd1;
   color: rgba(0,0,0,0.6);
   -webkit-overflow-scrolling: touch;
 }
@@ -261,7 +261,7 @@ a {
   right: 0;
   min-height: 100%;
   background: url("/img/texture.png");
-  background-color: #f5f5dc;
+  background-color: #e3efd1;
   left: 300px;
   width: auto;
 }
@@ -1482,7 +1482,7 @@ a {
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
 }
 .article-entry code {
-  background: #f5f5dc;
+  background: #e3efd1;
   padding: 0 0.3em;
   border: none;
 }
