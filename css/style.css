@@ -259,7 +259,8 @@ a {
   position: absolute;
   right: 0;
   min-height: 100%;
-  background: #eaeaea;
+  background: url("images/texture.png");
+  background-color: #304758;
   left: 300px;
   width: auto;
 }
@@ -948,6 +949,7 @@ a {
 }
 .article-header {
   border-left: 5px solid;
+  border-color: #bb1c33;
   padding: 15px 0px 15px 25px;
 }
 .article-info.info-on-right {
@@ -1479,7 +1481,7 @@ a {
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
 }
 .article-entry code {
-  background: #eaeaea;
+  background: #304758;
   padding: 0 0.3em;
   border: none;
 }
