@@ -28,7 +28,7 @@ int
 uint 
 
 同int一样可以使用给定长度的值 uint8 uint16 uint32 uintt64 uintptr 值得一提的是, uintptr 是pointer(指针) 储存地址. int, uint, uintptr 会随">
-<meta property="og:updated_time" content="2015-12-27T23:08:30.000Z">
+<meta property="og:updated_time" content="2015-12-27T23:11:30.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Golang 学习记录之变量(Variable)">
 <meta name="twitter:description" content="Variable 共有8种basic types
@@ -186,7 +186,7 @@ uint
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h4 id="Variable__u5171_u67098_u79CDbasic_types"><a href="#Variable__u5171_u67098_u79CDbasic_types" class="headerlink" title="Variable 共有8种basic types"></a>Variable 共有8种basic types</h4><ol>
+        <h3 id="Variable__u5171_u67098_u79CDbasic_types"><a href="#Variable__u5171_u67098_u79CDbasic_types" class="headerlink" title="Variable 共有8种basic types"></a>Variable 共有8种basic types</h3><ol>
 <li><p>int </p>
 <blockquote>
 <p>   同时也可以使用给定长度的signed int值: int8 int16 int32 int64</p>
@@ -202,6 +202,9 @@ uint
 <p>用来表示<a href="https://en.wikipedia.org/wiki/Unicode" target="_blank" rel="external">Unicode</a><br>是uint32的alias(又名)    </p>
 </blockquote>
 </li>
+</ol>
+<a id="more"></a>
+<ol>
 <li><p>byte</p>
 <blockquote>
 <p> 是uint8 的 alias</p>
@@ -231,7 +234,7 @@ uint
 <p>除此之外, 我们也可以用 <strong>type</strong> 关键字来自定义类型 如:<br><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">type</span> double <span class="typename">float64</span></span><br><span class="line"><span class="keyword">type</span> Book <span class="keyword">struct</span> &#123;</span><br><span class="line">	author, title <span class="typename">string</span></span><br><span class="line">	chaprters []<span class="typename">string</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <h5 id="u6570_u7EC4__28array_29"><a href="#u6570_u7EC4__28array_29" class="headerlink" title="数组 (array)"></a>数组 (array)</h5><p>数组的定义格式为<br><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[size]<span class="keyword">type</span></span><br><span class="line">[]<span class="keyword">type</span> </span><br><span class="line">[]<span class="keyword">type</span>&#123;...&#125;</span><br></pre></td></tr></table></figure></p>
 <h5 id="u7ED3_u6784_u4F53__28struct_29"><a href="#u7ED3_u6784_u4F53__28struct_29" class="headerlink" title="结构体 (struct)"></a>结构体 (struct)</h5><p>结构体定义格式为<br><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">type</span> name <span class="keyword">struct</span> &#123;</span><br><span class="line">	field1 type1</span><br><span class="line">	field2 type2</span><br><span class="line">	field3, field4, field5 type3</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h4 id="Variable__u7684_u4E24_u79CD_u521D_u59CB_u5316_u65B9_u5F0F"><a href="#Variable__u7684_u4E24_u79CD_u521D_u59CB_u5316_u65B9_u5F0F" class="headerlink" title="Variable 的两种初始化方式"></a>Variable 的两种初始化方式</h4><h5 id="1-__u91C7_u7528_var_name__5Btype_5D__3D_value"><a href="#1-__u91C7_u7528_var_name__5Btype_5D__3D_value" class="headerlink" title="1. 采用 var name [type] = value"></a>1. 采用 var name [type] = value</h5><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> name <span class="typename">string</span> = <span class="string">"firstname lastname"</span></span><br><span class="line"><span class="keyword">var</span> name = <span class="string">"firstname lastname"</span></span><br></pre></td></tr></table></figure>
+<h3 id="Variable__u7684_u4E24_u79CD_u521D_u59CB_u5316_u65B9_u5F0F"><a href="#Variable__u7684_u4E24_u79CD_u521D_u59CB_u5316_u65B9_u5F0F" class="headerlink" title="Variable 的两种初始化方式"></a>Variable 的两种初始化方式</h3><h5 id="1-__u91C7_u7528_var_name__5Btype_5D__3D_value"><a href="#1-__u91C7_u7528_var_name__5Btype_5D__3D_value" class="headerlink" title="1. 采用 var name [type] = value"></a>1. 采用 var name [type] = value</h5><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> name <span class="typename">string</span> = <span class="string">"firstname lastname"</span></span><br><span class="line"><span class="keyword">var</span> name = <span class="string">"firstname lastname"</span></span><br></pre></td></tr></table></figure>
 <h5 id="2-__u91C7_u7528_name__3A_3D_value__u7684implicit_type_u7684_u65B9_u5F0F"><a href="#2-__u91C7_u7528_name__3A_3D_value__u7684implicit_type_u7684_u65B9_u5F0F" class="headerlink" title="2. 采用 name := value 的implicit type的方式"></a>2. 采用 name := value 的implicit type的方式</h5><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">name := <span class="string">"firstname lastname"</span></span><br><span class="line"><span class="comment">// 注意: 此种方式只可以应用在函数体中</span></span><br></pre></td></tr></table></figure>
 <p>如果赋值符号右边是也是一个变量, 那么新的变量与其具有相同的type<br>如果赋值符号右边是一个值(整型数字, 浮点, 复数), 那么新变量将默认采用最大精度的类型. 即</p>
 <ul>
