@@ -14,7 +14,7 @@
 <meta property="og:site_name" content="OnePieCS">
 <meta property="og:description" content="if - 条件语句基本格式1234567if [v := value]; condition &amp;#123;	...&amp;#125; [ else if &amp;#123;	...&amp;#125; else &amp;#123;	...&amp;#125;]
 其中 if 条件下的代码必须要由大括号 {} 包裹">
-<meta property="og:updated_time" content="2015-12-30T01:20:19.000Z">
+<meta property="og:updated_time" content="2015-12-30T01:25:16.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Golang 学习记录之 Control flow">
 <meta name="twitter:description" content="if - 条件语句基本格式1234567if [v := value]; condition &amp;#123;	...&amp;#125; [ else if &amp;#123;	...&amp;#125; else &amp;#123;	...&amp;#125;]
@@ -199,7 +199,7 @@
 </ul>
 <p>若执行则会得到<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">a</span> is  <span class="number">11</span></span><br><span class="line">defer <span class="tag">a</span> is  <span class="number">12</span></span><br></pre></td></tr></table></figure></p>
 <ul>
-<li><strong>defer</strong> 语句执行的顺序是由其顺序决定的, <strong>defer</strong>采用defer stack 所以其语句执行顺序是后进先出(<a href="&quot;https://en.wikipedia.org/wiki/Stack_(abstract_data_type">LIFO</a>“))</li>
+<li><strong>defer</strong> 语句执行的顺序是由其顺序决定的, <strong>defer</strong>采用defer stack 所以其语句执行顺序是后进先出(<a href="https://en.wikipedia.org/wiki/Stack_&#40;abstract_data_type&#41;" target="_blank" rel="external">LIFO</a>)</li>
 </ul>
 <h3 id="goto"><a href="#goto" class="headerlink" title="goto"></a><strong>goto</strong></h3><p>Golang也支持<strong>goto</strong>语句, 其格式为<br><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">label:</span><br><span class="line">	...</span><br><span class="line"><span class="keyword">goto</span> label</span><br></pre></td></tr></table></figure></p>
 <h3 id="break__u548C_continue"><a href="#break__u548C_continue" class="headerlink" title="break 和 continue"></a><strong>break</strong> 和 <strong>continue</strong></h3><p>这里的break和continue的用法与<a href="https://en.wikipedia.org/wiki/C_syntax#Jump_statements" target="_blank" rel="external">C</a>中相同    </p>
